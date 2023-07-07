@@ -1,0 +1,95 @@
+body {
+    background-color: #0a0e17;  
+}
+.banner-title{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    padding-right: 20px;
+    text-align: left;
+}
+  .col-md-11{
+    float: left; 
+    width: 323px;
+    font-family: 'Jost', sans-serif;
+  }
+  .col-md-1{
+    height: 65px;
+  }
+  .design  {
+    height: 54px;
+    width: 295px;
+    background: #182031;
+    font-family: 'Jost', sans-serif;
+  }
+  .design-textarea{
+    width: 97.5%;
+    height: 213.78px;
+    background: #182031;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    left: 5px;
+  }
+  .Send-Button{
+    width: 98.5%;
+    height: 56px;
+    background: #3F9FFF;
+    border-style: none;
+    position: relative;
+    left: 5px;
+  }
+  .gen-form-design{
+   width: 626px;
+   margin: auto;
+   margin-top: 100px;
+}
+.gen-form-design input:hover,
+.gen-form-design textarea:hover {
+  transition: border-color 0.5s ease;
+  border-color: #0099ff;
+}
+
+.gen-form-design input,
+.gen-form-design textarea {
+  transition: border-color 0.6s ease;
+
+}
+.gen-form-design :focus {
+    outline: none;
+    border: 2px solid blue;
+  }
+
+
+  @media screen and (max-width: 800px) {
+   .col-md-1{
+    position: relative;
+    top: 3px;
+   }
+    .col-md-11{
+        float: none;       
+    }
+    .design-textarea, .col-md-1,  .col-md-11,.Send-Button{
+        width: 100%;   
+
+    }
+    .design-textarea{
+    position: relative;
+    left: 0px;
+    }
+    .gen-form-design{
+       width: 100%;
+       margin-top: 130px;
+       
+    }
+    .Send-Button{
+        width: 100%;
+        position: relative;
+       right: 5px;
+    }
+    .design  {
+      height: 54px;
+      width: 100%;
+      background: #182031;
+      font-family: 'Jost', sans-serif;
+
+}
+}
